@@ -1,0 +1,38 @@
+body{
+    background: url("https://ychef.files.bbci.co.uk/976x549/p0579798.jpg") no-repeat center center fixed;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  orange;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: blueviolet;
+}
+
+li a:hover:not(.active) {
+    background-color:  red; 
+}
+.active {
+    background-color: royalblue;
+    color: black
+}
+
+
+
+
+
